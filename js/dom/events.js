@@ -40,6 +40,12 @@ define(function () {
     }
   };
 
+  array.forEach(["click", "mouseover", "mouseout", "keypress"], function (evt) {
+    eventObject[evt] = function (el, fn) {
+      this.addEvent(el, evt, fn);
+    };
+  });
+
 
   return eventObject;
-}
+});

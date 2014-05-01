@@ -1,4 +1,5 @@
-define(function () {
+/*global define*/
+define(["utils/array"], function (array) {
   var eventObject = {
     addEvent: function (el, evt, fn) {
       if (el.addEventListener) {

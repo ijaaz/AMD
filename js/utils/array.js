@@ -1,6 +1,6 @@
 /*global define*/
 define(function () {
-
+  
   var nativeForEach = function (list, callback, thisArg) {
     [].forEach.call(list, callback, thisArg);
   },

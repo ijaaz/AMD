@@ -1,0 +1,22 @@
+body {
+  background-color: hsla(300, 63%, 40%, .15);
+  font-size: 16px;
+}
+
+#target {
+  padding-left: 20px;
+  background-color: hsla(300, 60%, 23%, .1);
+  width: 300px;
+}
+
+#target h1 {
+  color: #5c175c;
+  font-size: 3em;
+  font-family: Roboto;
+}
+
+div.nav-bar ul {
+  list-style: none;
+  background-color: hsla(300, 61%, 23%, .2);
+  top: 0;
+}
